@@ -34,7 +34,7 @@ span{
 }
 
 .spandupe{
-    color: rgb(11, 79, 20);
+    color: rgb(37, 107, 46);
 }
 
 nav ul li{
@@ -51,7 +51,7 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-    color: rgb(131, 129, 134);
+    color: white;
     transition: .4s;
 }
 
@@ -173,8 +173,8 @@ position: relative;
 }
 
 button{
-    background-color: red;
-    color: white;
+    background-color: rgb(210, 203, 203);
+    color: rgb(73, 110, 79);
     text-decoration: none;
     border: 2px solid transparent;
     font-weight: bold;
@@ -192,7 +192,7 @@ button:hover{
 .service { 
     width: 100%;
     padding: 100px 0px;
-    background-image: url(/images/heart.gif);
+    background: #b9e8a9;
     background-size: cover;
     background-position: center;
 }
