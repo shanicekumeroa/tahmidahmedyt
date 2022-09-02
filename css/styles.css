@@ -8,7 +8,7 @@
 .hero{
     height: 100vh;
     width: 100%;
-    background-image: url(/images/ppg.jpeg) ;
+    background-image: url(/images/eating.gif) ;
     background-size: cover;
     background-position: center;
 }
@@ -23,14 +23,18 @@ nav{
 }
 
 .logo{
-    color: rgb(24, 14, 19);
+    color: rgb(87, 125, 93);
     font-size: 35px;
     letter-spacing: 1px;
     cursor: pointer;
 }
 
 span{
-    color: rgb(131, 129, 134);
+    color: rgb(126, 162, 131);
+}
+
+.spandupe{
+    color: rgb(11, 79, 20);
 }
 
 nav ul li{
@@ -40,7 +44,7 @@ nav ul li{
 }
 
 nav ul li a{
-    color: rgb(5, 3, 3);
+    color: rgb(60, 84, 63);
     text-decoration: none;
     font-weight: bold;
     text-transform: capitalize;
@@ -52,8 +56,8 @@ nav ul li a:hover{
 }
 
 .btn{
-    background-color: rgb(131, 129, 134);
-    color: white;
+    background-color:rgb(126, 162, 131);
+    color: rgb(236, 239, 236);
     text-decoration: none;
     border: 2px solid transparent;
     font-weight: bold;
@@ -88,7 +92,7 @@ h3{
 
 h4{
     color: rgb(255, 255, 255);
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     font-size: 20px;
 }
 
@@ -100,10 +104,10 @@ position: relative;
 
 .newsletter form input:first-child{
     display: inline-block;
-    width: 100%;
+    width: 60%;
     padding: 14px 130px 14px 15px;
-    border: 2px solid red;
-    border-radius: 30px;
+    border: 5px solid rgb(151, 209, 163);
+    border-radius: 35px;
 }
 
 .newsletter form input:last-child{
@@ -113,10 +117,10 @@ position: relative;
     border: none;
     padding: 10px 30px;
     border-radius: 30px;
-    background-color: red;
+    background-color: rgb(126, 162, 131);
     color: white;
     box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
-    top: 6px;
+    top: 9px;
     right: 6px;
 
 }
@@ -124,7 +128,7 @@ position: relative;
 .about{
     width: 100%;
     padding: 100px 0px;
-    background-color: #191919;
+    background: #93c283;
 }
 
 .about img{
@@ -146,14 +150,14 @@ position: relative;
 }
 
 .about-text h2{
-    color: white;
+    color: rgb(60, 96, 67);
     font-size: 75px;
     text-transform: capitalize;
     margin-bottom: 20px;
 }
 
 .about-text h5{
-    color: white;
+    color: rgb(73, 110, 79);
     letter-spacing: 2px;
     font-size: 22px;
     margin-bottom: 25px;
@@ -161,7 +165,7 @@ position: relative;
 }
 
 .about-text p{
-    color: #fcfc;
+    color: rgb(233, 240, 234);
     letter-spacing: 1px;
     line-height: 28px;
     font-size: 18px;
@@ -185,10 +189,12 @@ button:hover{
     cursor: pointer;
 }
 
-.service {
-    background: #101010;
+.service { 
     width: 100%;
     padding: 100px 0px;
+    background-image: url(/images/heart.gif);
+    background-size: cover;
+    background-position: center;
 }
 
 .title h2{
